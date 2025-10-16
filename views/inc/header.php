@@ -31,5 +31,5 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!-- <script src="<?= $host ?>asset/js/structure.js"></script> -->
-    <script src="<?= $host ?>asset/js/nav.js"></script>
+    <script src="<?= $host ?>asset/js/nav.js" defer></script>
     <link rel="icon" type="image/png" href="<?= $host ?>asset/img/logo2.jpg">
