@@ -46,10 +46,15 @@ if(isset($_COOKIE[''])){ ?>
                 </div>
             </li>
         </ul>
-        <ul class="sousMenu">
-            <li>categori</li>
-            <li>categori</li>
-            <li>categori</li>
-        </ul>
+        <div id="sousMenu">
+            <div class="closMiniMenu">
+                <button id="btns"><i class="fa-solid fa-arrow-up"></i></button>
+            </div>
+            <ul class="sousMenu">
+                <li><a href="">categori</a></li>
+                <li><a href="">categori</a></li>
+                <li><a href="">categori</a></li>
+            </ul>
+        </div>
     </nav>
 <?php } ?>
